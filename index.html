@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Sayt</title>
+
+    <script src="js/myscript.js"></script>
+</head>
+<style>
+    input[type='number'] {
+        -moz-appearance: textfield;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+</style>
+
+<body>
+    <div class="content">
+
+        <p class="ptop">Ваш пол</p>
+        <div class="top">
+            <div id="woman" class="block women">Женщина</div>
+            <div id="man" class="block man">Мужчина</div>
+        </div>
+
+        <p>Ваша конституция</p>
+        <div class="mid">
+            <div id="height" class="height"><input type="number" placeholder="Введите рост"></div>
+            <div id="weight" class="weight"><input type="number" placeholder="Введите вес"></div>
+            <div id="age" class="age"><input type="number" placeholder="Введите возраст"></div>
+        </div>
+
+        <p>Выберите вашу физическую активность</p>
+        <div class="bot">
+            <div class="low" data-ratio="1.2">Низкая активность</div>
+            <div class="average" data-ratio="1.375">Невысокая активность</div>
+            <div class="high" data-ratio="1.55">Умеренная активность</div>
+            <div class="highest" data-ratio="1.725">Высокая активность</div>
+        </div>
+
+
+        <div class="result">Ваша суточная норма: <span>2700ккал</span></div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
